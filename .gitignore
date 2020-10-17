@@ -1,13 +1,14 @@
 *.com
 *.class
-*.dll
-*.exe
 *.o
 *.so
 *.tmp
 *.bak
 *.hrb
+*.ppo
+*.ppt
 .history
 .hbmk
 *.NotInGit
 Thumbs.db
+hbmk2

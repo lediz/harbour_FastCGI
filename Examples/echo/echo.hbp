@@ -1,16 +1,10 @@
-#-inc
-
 -hbexe
+#-inc
+-workdir=${HB_COMPILER}\${BuildMode}\hbmk2\
 
--o${BuildMode}\${EXEName}
+-o${HB_COMPILER}\${BuildMode}\${EXEName}
 
 echo.prg
 
-..\..\hb_fcgi\hb_fcgi.c
-
-..\..\hb_fcgi\vscode_debugger.prg
-
--i..\..\fcgi-2.4.1\include
-
--L..\..\fcgi-2.4.1\libfcgi\Release
--llibfcgi
+..\..\hb_fcgi\hb_fcgi.hbm
+..\..\hb_fcgi\debugger.hbm
